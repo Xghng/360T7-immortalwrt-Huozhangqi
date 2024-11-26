@@ -16,4 +16,4 @@
 # Add a feed source
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-## echo 'src-git eqos-mtk https://github.com/padavanonly/immortalwrt-mt798x-23.05/tree/openwrt-23.05/package/mtk/applications/luci-app-eqos-mtk' >>feeds.conf.default
+echo 'src-git eqos-mtk https://github.com/padavanonly/immortalwrt-mt798x-23.05/tree/openwrt-23.05/package/mtk/applications/luci-app-eqos-mtk' >>feeds.conf.default
