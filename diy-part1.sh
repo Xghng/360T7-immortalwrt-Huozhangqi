@@ -13,7 +13,7 @@
 # Uncomment a feed source
 #sed -i 's/^#\(.*helloworld\)/\1/' feeds.conf.default
 
-# Add a feed source
+### 添加第三方订阅源
+sed -i '$a src-git-full small https://github.com/kenzok8/small-package' feeds.conf.default
 #echo 'src-git helloworld https://github.com/fw876/helloworld' >>feeds.conf.default
 #echo 'src-git passwall https://github.com/xiaorouji/openwrt-passwall' >>feeds.conf.default
-echo 'src-git eqos-mtk https://github.com/padavanonly/immortalwrt-mt798x-23.05/tree/openwrt-23.05/package/mtk/applications/luci-app-eqos-mtk' >>feeds.conf.default
